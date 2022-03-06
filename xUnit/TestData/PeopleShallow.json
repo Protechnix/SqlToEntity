@@ -1,0 +1,38 @@
+[
+  {
+    "FirstName": "Joe",
+    "LastName": "Shmoe",
+    "EmailAddress": "jshmoe@notreal.com",
+    "City": "Los Angeles",
+    "PhoneList": null,
+    "Hobbies": null,
+    "Id": 1
+  },
+  {
+    "FirstName": "Steve",
+    "LastName": "Green",
+    "EmailAddress": "sgreen@notreal.com",
+    "City": "Dublin",
+    "PhoneList": null,
+    "Hobbies": null,
+    "Id": 2
+  },
+  {
+    "FirstName": "Michelle",
+    "LastName": null,
+    "EmailAddress": "mjones@notreal.com",
+    "City": "Los Angeles",
+    "PhoneList": null,
+    "Hobbies": null,
+    "Id": 3
+  },
+  {
+    "FirstName": "Joan",
+    "LastName": "Branch",
+    "EmailAddress": "jbranch@notreal.com",
+    "City": "New York",
+    "PhoneList": null,
+    "Hobbies": null,
+    "Id": 4
+  }
+]

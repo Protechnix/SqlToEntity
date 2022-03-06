@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>SqlToEntity</AssemblyName>
+    <RootNamespace>SqlToEntity</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Protechnix/SqlToEntity</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>The initial release of the SqlToEntity library. This build is for .NET Core applications connecting to a SQL Server database.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/Protechnix/SqlToEntity</PackageProjectUrl>
+    <Description>A minimalist ORM library wrapping ADO.NET that streamlines database interactions and entity creation.</Description>
+    <Company>Protechnix</Company>
+    <Authors>Mike</Authors>
+    <PackageTags>SQL Entity ADO.NET ORM</PackageTags>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <Copyright>Copyright (c) 2021 Protechnix</Copyright>
+    <PackageIcon>s2e-256x256.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.20" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.20" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="s2e-256x256.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
